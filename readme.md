@@ -26,7 +26,7 @@ cp .env.example .env
 
 Then edit `.env` file with appropriate credential for your database server. Just edit these two parameter(`DB_USERNAME`, `DB_PASSWORD`).
 
-Then create a database named `todos` and then do a database migration using this command-
+Then create a database named `laravelcrud` and then do a database migration using this command-
 ```
 php artisan migrate
 ```
@@ -43,4 +43,8 @@ Then go to `http://localhost:8000` from your browser and see the app.
 ## Screenshot
 
 ![](https://i.imgur.com/inZHcaZ.jpg?1)
+
+## Credits
+
+- [Tanbir](https://github.com/ToTanbir)
 
